@@ -4,7 +4,7 @@ databaseChangeLog:
       author: eddumelendez
       changes:
         - sqlFile:
-            path: scripts/1.0.0/001_create_user_table.sql
+            path: https://raw.githubusercontent.com/Prabhu12345678/liquibase-demo/master/scripts/1.0.0/001_create_user_table.sql
       rollback:
         - sqlFile:
-            path: scripts/1.0.0/rollback/001_drop_user_table.sql
+            path: https://raw.githubusercontent.com/Prabhu12345678/liquibase-demo/master/scripts/1.0.0/rollback/001_drop_user_table.sql
